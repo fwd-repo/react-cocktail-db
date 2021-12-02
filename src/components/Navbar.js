@@ -1,10 +1,11 @@
 import React from 'react'
-import { useGlobalContext } from '../context'
+import { Link } from 'react-router-dom'
+import logo from '../logo.svg'
 
-const SearchForm = () => {
+const Navbar = () => {
   return (
     <div>
-      <h2>search form component</h2>
+      <h2>navbar component</h2>
     </div>
   )
 }
